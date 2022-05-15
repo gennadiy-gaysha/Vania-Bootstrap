@@ -31,7 +31,9 @@ nav {
 header {
   position: relative;
   width: 100%;
-  position: fixed;
+}
+
+nav {
 }
 
 .subheader {
@@ -126,4 +128,75 @@ button.invite-btn {
   box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   margin-top: 116px;
+}
+
+.reason {
+  min-height: 850px;
+  background-color: #fff;
+}
+
+.reason-suptitle {
+  display: block;
+  width: 115px;
+  height: 27px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #000000;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.reason-title {
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 46px;
+}
+
+.article-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.article-circle-item {
+  display: flex;
+}
+
+.article-circle {
+  display: flex;
+  align-items: center;
+  background: #1eacc7;
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+}
+
+.article-icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.article-text {
+  margin-left: 25px;
+}
+
+.article-title {
+  text-align-last: left;
+  font-weight: 400;
+  font-size: 17px;
+  color: #1eacc7;
+}
+
+.article-description {
+  text-align-last: left;
+  font-weight: 300;
+  font-size: 15px;
+  color: #202020;
 }
