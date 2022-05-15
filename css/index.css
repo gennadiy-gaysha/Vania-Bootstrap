@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700&display=swap"rel="stylesheet");
+
+:root {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+nav {
+  height: 53px;
+  background: #212121;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 13px;
+  text-align: center;
+  padding: 13px 70px;
+  margin: 0;
+}
+
+.menu-item {
+  border-right: 2px dotted black;
+  padding-right: 45px;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  position: fixed;
+}
+
+.subheader {
+  height: 87px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.logo {
+  display: block;
+  margin-top: 18px;
+}
+
+.official {
+  font-weight: 100;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.subheader-cat {
+  font-weight: 300;
+  font-size: 12px;
+  text-align: right;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.subheader-tel {
+  display: block;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.subheader-btn {
+  width: 172px;
+  height: 46px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 18px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+main {
+}
+
+.invite {
+  background: url(../img/bg/Uber-bg.png) center center/cover no-repeat;
+  min-height: 800px;
+}
+
+.invite-title {
+  margin-top: 160px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.invite-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.invite-description {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+button.invite-btn {
+  margin: 0 auto;
+  display: block;
+  width: 172px;
+  height: 46px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 18px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-top: 116px;
+}
