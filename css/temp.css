@@ -58,3 +58,9 @@
     margin: 0;
   }
 }
+
+.block {
+  background-color: red;
+  text-align: center;
+  border: 3px solid #000;
+}
